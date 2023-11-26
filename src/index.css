@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    cursor: url('../public/icons8-select-cursor-24.png'), auto;
+
+}
+p{
+    cursor: auto;
+}
+body{
+    background: rgb(30,30,30);
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}

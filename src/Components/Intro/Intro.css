@@ -1,0 +1,102 @@
+.dynamic-txts{
+    color: yellow;
+    position: relative;
+    cursor: auto;
+}
+.dynamic-txts::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(30,30,30);
+  border-left: 2px solid yellow;
+  animation: typing 3s steps(10) infinite;
+
+}
+@keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
+
+.header{
+    /* height: 500px ; */
+    /* height: calc(100vh- 5rem); */
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 6rem;
+    padding-left: 15rem;
+    /* background-color: red; */
+    /* padding: 10rem; */
+    cursor: auto;
+}
+.img-header{
+    height: 40rem;
+    object-fit: cover;
+    /* padding-left: 15rem; */
+    padding-top: 4rem;
+    padding-left: 14rem;
+    border-radius: 50%;
+    /* margin-top: .rem; */
+    /* margin-bottom: 4rem; */
+}
+.header .intro h1{
+    font-size: 5rem;
+    line-height: 6rem;
+    cursor: auto;
+}
+.header .intro h3{
+    font-size: 2rem;
+    cursor: auto;
+}
+.header .intro p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    cursor: auto;
+}
+.hireme{
+    color:  black;
+    background: white ;
+    display: flex;
+    align-items: center;
+    border: none;
+    margin: 1rem 0;
+    padding: .75rem 2rem;
+    border-radius: 2rem;
+}
+.btn-img{
+    height: 1rem;
+    /* padding: 5px; */
+    margin: 0 0.25rem;
+    cursor: pointer;
+}
+.hireme:hover{
+    background: yellow;
+    color: black; 
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    cursor: pointer;
+}
+p{
+    cursor: auto;
+}
+h2{
+    cursor: auto;
+}
+@media only screen and (max-width: 840px){
+    .img-header{
+        right: -20vw;
+    }
+
+}
+@media only screen and (max-width: 480px){
+    .img-header{
+        right: -20vw;
+    }
+
+}

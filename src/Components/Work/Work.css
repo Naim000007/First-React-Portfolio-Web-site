@@ -1,0 +1,86 @@
+#works{
+    /* min-height: calc(100vh - 4rem); */
+    margin: 0 auto;
+    max-width: 60rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+.worksTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+.worksDesc{
+    font-weight: 300;
+    font-size: 1rem;
+}
+.worksImgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 65rem;
+    flex-wrap: wrap;
+}
+.project-btn{
+    border: none;
+}
+.worksImg{
+    object-fit: cover;
+    height: 20rem;
+    cursor: pointer;
+    margin: 1rem 1rem;
+
+}
+.visible {
+    display: block; /* Show the image when the 'visible' class is present */
+  
+  }
+  
+  .hidden {
+    display: none; /* Hide the image when the 'hidden' class is present */
+  }
+
+.protfolio-btn {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-weight: 600;
+    color: black;
+    font-size: 14px;
+    height: 38px;
+    padding: 8px 24px;
+    border-radius: 50px;
+    background-image: linear-gradient(180deg, #ffeb3b, #ffc107);
+    box-shadow: 0 4px 11px 0 rgba(255, 255, 255, 0.15), 0 1px 3px 0 rgba(255, 255, 255, 0.2);
+    transition: all .2s ease-out;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.protfolio-btn:hover{
+    box-shadow: 0 8px 22px 0 rgba(255, 255, 255, 0.15), 0 4px 6px 0 rgba(255, 255, 255, 0.2);
+
+}
+.see-more{
+    background: transparent;
+    border: none;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    /* border-bottom: 3px solid red; */
+
+
+}
+.see-more>h2{
+    font-size: 2rem;
+    color: yellow;
+    /* border-bottom: 2px solid yellow; */
+    margin: 20px;
+}
